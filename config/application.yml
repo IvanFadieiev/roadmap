@@ -1,0 +1,18 @@
+defaults: &defaults
+  EMAIL: example@example.com
+
+development:
+  <<: *defaults
+  KEY: development
+
+test:
+  <<: *defaults
+  KEY: test
+
+staging:
+  <<: *defaults
+  KEY: staging
+
+production:
+  <<: *defaults
+  KEY: production
