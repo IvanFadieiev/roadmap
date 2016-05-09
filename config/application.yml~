@@ -14,7 +14,6 @@ staging:
   <<: *defaults
   KEY: staging
   SERVER: webrick
-
 production:
   <<: *defaults
   KEY: production
